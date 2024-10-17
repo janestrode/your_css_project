@@ -58,7 +58,7 @@ body {
 .nav-btn {                  /*  button styles */
     padding: 10px 20px;
     border-radius: 50px;
-    background-color: rgb(126, 123, 182);
+    background-color: rgb(162, 85, 25);
     color: white;
     text-decoration: none;
     font-size: 1em;    
@@ -68,7 +68,7 @@ body {
 }
 
 .nav-btn:hover {
-    background-color: rgb(105, 102, 158);
+    background-color: rgb(162, 85, 25);
 
 }
 
@@ -129,7 +129,7 @@ body {
 .card-link {        /*  button styling */
     display: inline-block;
      padding:  10px 20px;
-    background-color: rgb(126, 123, 182);
+    background-color: rgb(162, 85, 25);
      color: white;
      text-decoration:  none;  
     border-radius:  5px;
@@ -137,7 +137,7 @@ body {
 }
 
 .card-link:hover {
-    background-color: rgb(105, 102, 158);
+    background-color: rgb(162, 85, 25);
 }
 
 /* Hero Section, top of page  */
@@ -190,7 +190,7 @@ body {
 
 .hero-link {/* button */
     padding: 10px 20px;
-    background-color: rgb(126,  123, 182);
+    background-color: rgb(162, 85, 25);
     color: white;
 
     text-decoration:  none;
@@ -200,7 +200,7 @@ body {
 }
 
 .hero-link:hover {
-    background-color: rgb(105, 102, 158);
+    background-color: rgb(162, 85, 25);
 }
 
 /* Slideshow */
@@ -267,7 +267,7 @@ body {
 .section-link {
     padding: 10px 20px;
   
-    background-color: rgb(126, 123, 182);
+    background-color: rgb(162, 85, 25);
     color: white;
     text-decoration: none;
      font-size: 1.2em;
@@ -276,7 +276,7 @@ body {
 }
   
 .section-link:hover {   
-     background-color: rgb(105, 102, 158);  
+     background-color: rgb(162, 85, 25);  
 }
 
 /* Footer style */
