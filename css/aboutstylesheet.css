@@ -18,7 +18,7 @@ body {
     align-items: center;
     padding: 15px 30px;
     background-color: rgba(136,136,89);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(66, 66, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
