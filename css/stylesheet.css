@@ -25,7 +25,7 @@ body {
     align-items: center;
     padding: 15px 30px;
 
-    background-color: white;
+    background-color:#e2cead;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: sticky;                   /*  sticky not working, need to debug  */
     top: 0;
