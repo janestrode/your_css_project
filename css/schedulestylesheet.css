@@ -76,6 +76,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
 }
 .card:hover {
   
@@ -92,6 +93,7 @@ body {
 
 .card-content {
    padding: 20px;
+   position: relative;
 }
 
 .card-content h2 {
@@ -112,6 +114,11 @@ body {
    font-size: 1em;
     margin-bottom: 20px;
    color: #555;  
+}
+
+.dates {
+    position: absolute;
+    margin-bottom: 1px;
 }
 /* Footer styles */
 footer {
