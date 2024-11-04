@@ -71,3 +71,11 @@ footer {
     padding: 10px 0;
     width: 100%;
 }
+
+
+@media (max-width: 401px) {
+    .nav-btn{
+        font-size: 0.5em;
+        padding: 5px 10px;
+    }
+}
