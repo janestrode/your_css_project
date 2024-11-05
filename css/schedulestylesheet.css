@@ -60,7 +60,31 @@ body {
 .nav-btn:hover {
     background-color: rgb(162, 85, 25);
 }
+.header-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    background-color: #888859;
+}
 
+.header-content{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.header-content h1{
+    font-size: 3.5em;
+    text-align: center;
+    color:#8b3e00;
+    margin: 20px;
+}
+
+.header-content h3{
+    text-align: center;
+    margin: 40px;
+    color: #333
+}
 /* Put Page Content CSS Here */
 .cards-section {
     display: grid;
@@ -116,10 +140,7 @@ body {
    color: #555;  
 }
 
-.dates {
-    position: absolute;
-    margin-bottom: 1px;
-}
+
 /* Footer styles */
 footer {
     background-color: #333;
