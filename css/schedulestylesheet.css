@@ -11,7 +11,8 @@ body {
     background-color: white;
 }
 
-/* Sticky Navbar */
+
+/*  navbar  */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -24,6 +25,7 @@ body {
     z-index: 1000;
 }
 
+/* Logo and Title */
 .logo-title {
     display: flex;
     align-items: center;
@@ -40,18 +42,21 @@ body {
     color: #333;
 }
 
+/* Nav Buttons */
 .nav-buttons {
+
     display: flex;
-    gap: 15px;
+    gap: 10px; 
 }
 
 .nav-btn {
-    padding: 10px 20px;
-    border-radius: 50px;
+    padding: 5px 15px; 
+     border-radius: 50px;
     background-color: rgb(162, 85, 25);
     color: white;
+
     text-decoration: none;
-    font-size: 1em;
+     font-size: 1.2em; 
     font-weight: bold;
     text-align: center;
     transition: background-color 0.3s ease;
@@ -60,30 +65,66 @@ body {
 .nav-btn:hover {
     background-color: rgb(162, 85, 25);
 }
-.header-section {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 40px;
-    background-color: #888859;
+
+/*  Menu  */
+.menu-toggle {
+    display: none;
+    font-size: 2em;
+
+    cursor: pointer;
 }
 
-.header-content{
-    background-color: white;
-    border-radius: 10px;
-}
 
-.header-content h1{
-    font-size: 3.5em;
-    text-align: center;
-    color:rgb(162, 85, 25);
-    margin: 20px;
-}
 
-.header-content h3{
-    text-align: center;
-    margin: 40px;
-    color: #333
+
+/* Mobile styles for 400px */
+@media (max-width: 400px) {
+    .navbar {
+        padding: 10px 15px;
+        justify-content: space-between;  
+
+    }
+
+    .menu-toggle {  
+        display: block; /* Show the menu icon */  
+         order: 2; 
+    }
+
+    .logo-title {
+        display: none; /* Hide the logo */
+    }
+
+    .nav-buttons {  
+
+        display: none; /* Hide bbtns untill clicked menu icon */
+        flex-direction: column;   
+        gap: 10px;
+          background-color: #e2cead;
+        position: absolute;
+        top: 100%;
+         left: 0;
+        right: 0; 
+
+        padding: 30px 0;
+         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        align-items: center; 
+    }
+
+
+
+    .nav-buttons.active {
+        display: flex; 
+
+
+    }
+
+
+    .nav-btn {
+         width: 80%; 
+        
+         padding: 20px 15px;
+         font-size: 1.2em; 
+}
 }
 /* Put Page Content CSS Here */
 .cards-section {

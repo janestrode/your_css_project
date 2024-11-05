@@ -8,22 +8,31 @@
     <link rel="stylesheet" href="../css/FAQstylesheet.css">
 </head>
 <body>
-   <!-- Navbar  -->
-   <header>
-        <div class="navbar">
-            <div class="logo-title">
-                <img src="../img/logo-desktop-fall.svg" alt="Logo" class="navbar-logo">
-                <h1> </h1>
-            </div>
-            <div class="nav-buttons">
-                <a href="../html/landing.html" class="nav-btn">Home</a>
-                <a href="../html/schedule.html" class="nav-btn">Schedule</a>
-                <a href="../html/about.html" class="nav-btn">About</a>
-                <a href="../html/FAQ.html" class="nav-btn">FAQ</a>
-                <a href="../html/contact.html" class="nav-btn">Contact</a>
-            </div>
+  
+   <!-- Navbar -->
+<header>
+    <div class="navbar">
+        <div class="logo-title">
+            <img src="../img/logo-desktop-fall.svg" alt="Logo" class="navbar-logo">
+            <h1></h1>
         </div>
-    </header>   
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- menu Icon -->
+        <div class="nav-buttons">
+            <a href="../html/landing.html" class="nav-btn">Home</a>
+            <a href="../html/schedule.html" class="nav-btn">Schedule</a>
+            <a href="../html/about.html" class="nav-btn">About</a>
+            <a href="../html/FAQ.html" class="nav-btn">FAQ</a>
+            <a href="../html/contact.html" class="nav-btn">Contact</a>
+        </div>
+    </div>
+</header>
+
+<!-- Add JavaScript to toggle the menu -->
+<script>
+    function toggleMenu() {
+        document.querySelector('.nav-buttons').classList.toggle('active');
+    }
+</script>
 
 <!-- Put Content Here  -->
 
@@ -76,7 +85,7 @@
             <p><strong>Discounted Ticketing:</strong> There are several ways to save money on ticket prices. Sign up for eNotes — the Colorado Symphony weekly newsletter for first access to events and special discounts. Additionally, save on tickets by becoming a subscriber, bringing a group, or taking advantage of discounts for children, students, teachers, and military personnel.</p>
         </div>
 
-        
+
         <!-- Before You Go Section -->
         <div class="section-title">
              <h2>Before You Go</h2>

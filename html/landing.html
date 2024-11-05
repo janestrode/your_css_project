@@ -10,24 +10,30 @@
 </head>
 <body>
 
-   <!-- Navbar  -->
-   <header>
+  <!-- Navbar -->
+<header>
     <div class="navbar">
-
         <div class="logo-title">
             <img src="../img/logo-desktop-fall.svg" alt="Logo" class="navbar-logo">
-            <h1> </h1><!-- not used makes scaling bad   -->
-
+            <h1></h1>
         </div>
-         <div class="nav-buttons">          <!-- Fill with links to other pages once they are made   -->
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- menu Icon -->
+        <div class="nav-buttons">
+            <a href="../html/landing.html" class="nav-btn">Home</a>
             <a href="../html/schedule.html" class="nav-btn">Schedule</a>
-             <a href="../html/about.html" class="nav-btn">About</a>
-             <a href="../html/FAQ.html" class="nav-btn">FAQ</a> 
-            <a href="../html/contact.html" class="nav-btn">Contact</a> 
+            <a href="../html/about.html" class="nav-btn">About</a>
+            <a href="../html/FAQ.html" class="nav-btn">FAQ</a>
+            <a href="../html/contact.html" class="nav-btn">Contact</a>
         </div>
-
-    </div> 
+    </div>
 </header>
+
+<!-- Add JavaScript to toggle the menu -->
+<script>
+    function toggleMenu() {
+        document.querySelector('.nav-buttons').classList.toggle('active');
+    }
+</script>
 
     <!-- Hero Image Section -->
     <section class="hero-section">
