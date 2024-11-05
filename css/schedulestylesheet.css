@@ -126,7 +126,30 @@ body {
          font-size: 1.2em; 
 }
 }
+
+
 /* Put Page Content CSS Here */
+
+.header-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    background-color: #888859;
+}
+
+.header-content{
+    
+}
+
+.header-content h3{
+    text-align: center;
+    margin: 40px;
+    color: #333;
+}
+    
+    
+
 .cards-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
