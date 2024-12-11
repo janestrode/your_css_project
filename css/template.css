@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: white;
+    background-color: #162828;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
@@ -37,7 +37,7 @@ body {
 
 .logo-title h1 {
     font-size: 1.8em;
-    color: #333;
+    color: #51615e;
 }
 
 .nav-buttons {
@@ -48,7 +48,7 @@ body {
 .nav-btn {
     padding: 10px 20px;
     border-radius: 50px;
-    background-color: rgb(162, 85, 25);
+    background-color: #aa4516;
     color: white;
     text-decoration: none;
     font-size: 1em;
@@ -58,7 +58,7 @@ body {
 }
 
 .nav-btn:hover {
-    background-color: rgb(162, 85, 25);
+    background-color: #e06c36;
 }
 
 /* Put Page Content CSS Here */
